@@ -38,7 +38,7 @@ int main() {
 
     unsigned long long sum, product;
     calculate(array, rows, cols, sum, product);
-    cout << "Сума: " << sum << ", Добуток: " << product << endl;
+    cout << "Summa: " << sum << ", Добуток: " << product << endl;
 
     for (int i = 0; i < rows; i++) {
         delete[] array[i];
